@@ -41,17 +41,11 @@ Se agrega como requerimientos
 * Saber si tom puede comer un ratón que está a cierta distancia (indicando la distancia)
 * Saber si tom quiere comer un ratón que está a cierta distancia (indicando el ratón y la distancia)
 
-Puede comer si tiene energía suficiente para recorrer esa distancia. Es
-decir, la energía que gastaría en correr la distancia es menor a su propia
-energía
+Puede comer si tiene energía suficiente para recorrer esa distancia. Es decir, la energía que gastaría en correr la distancia es menor a su propia energía
 
-Tom quiere comer un ratón que está a cierta distancia si puede comerlo 
-(punto anterior) y además  la energía que va a gastar en correr 
-la distancia hasta el ratón es menor a la energía que va a recibir 
-por comérselo.
+Tom quiere comer un ratón que está a cierta distancia, si puede comerlo (punto anterior) y además  la energía que va a gastar en correr la distancia hasta el ratón es menor a la energía que va a recibir por comérselo.
 
-Nota: Acá se busca ser capaz de evitar la duplicación de código (subtareas), 
-y manejar correctamente métodos booleanos de consulta
+Nota: Acá se busca ser capaz de evitar la duplicación de código (subtareas), y manejar correctamente métodos booleanos de consulta
 
 ### Casos de prueba
 
