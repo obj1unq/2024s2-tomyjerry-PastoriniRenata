@@ -23,6 +23,12 @@ describe "tom y jerry" {
         assert.notThat(tom.puedeComerRatonA(120)) //Tom tiene 50 de energia y gastaria 60
         assert.notThat(tom.quiereComerA_QueEstaA_(nibbles, 96)) //Lo podría comer x distancia, pero no lo puede comer x energía
         assert.that(tom.quiereComerA_QueEstaA_(nibbles, 60)) //Lo puede Comer y lo quiere comer
+        
+        tom.comer(jerry)
+        assert.that(tom.puedeComerRatonA(120)) //Tom tiene 50+12+40= 102 de energia y gastaria 60
+        assert.that(tom.quiereComerA_QueEstaA_(nibbles, 40)) //Lo podría comer x distancia y lo podría comer por energia
+
+
     }
 }
 
